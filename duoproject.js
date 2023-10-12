@@ -1,12 +1,10 @@
-var sound = document.getElementById('sound');
-console.log(sound);
-
-function playsound(){
-  sound.play();
-}
-
 
 function startgame(){
   window.location = 'startGame.html';
 }
 
+
+$('#startGame').on('click',function(){
+  var namePlayer = document.querySelector('input').value;
+  alert('welcome' + ' ' + namePlayer);
+});
