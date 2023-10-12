@@ -1,0 +1,60 @@
+@import url('https://fonts.cdnfonts.com/css/ghostly-whispers');
+*{
+font-family:'Ghostly Whispers', sans-serif;}
+a{
+    text-decoration: none;
+    color: rgb(230, 153, 81);
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: first baseline;
+}
+ul li{
+    font-size: 40px;
+    list-style: none; 
+}
+body{
+    width: 95%;
+    height: 100vh;
+    background-image: linear-gradient( rgba(255, 255, 255, 0.152),rgba(150, 86, 86, 0.322)),url("https://www.darkroomtemplates.com/product_images/uploaded_images/halloween-background.gif?fbclid=IwAR3lrKnTgony9YngwmZWKOLc6-BKCmFmDZXzol6GGWSAwTmrKCmYq9jhn5w")}
+h1{
+    font-size: 150px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    padding: 0;
+    margin-top: 0;
+    color: lightgoldenrodyellow;
+}
+#startGame{
+    width: 30%;
+    margin-left: 38%;
+    margin-top: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 60px;
+    background: linear-gradient(rgba(255, 166, 0, 0.381),rgba(0, 0, 0, 0.397));
+}
+#startGame:hover{
+    animation: ani 8s linear infinite;
+    border: none;
+  }
+  
+@keyframes ani {
+    0% {
+      background-position: 0%;
+    }
+  
+    100% {
+      background-position: 400%;
+    }
+  }
+.audio{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
